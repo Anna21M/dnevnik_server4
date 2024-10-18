@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник школы: Изменить класс</title>
+</head>
+<body>
+    <h1>Дневник школы: Изменить класс</h1>    
+    <a href="/page_classes">Назад</a>
+
+    <div>
+        <label for="name">Наименование класса: </label> 
+        <input id="name" value="" type="text"/>
+
+        <label for="list">Учитель:</label>
+        <select id="list" required>            
+            <!-- Список учителей добавит "page_classes_add.js" -->
+        </select>
+        
+        <button id="but_update">Изменить</button>
+
+    </div>
+    <script src="page_classes_update.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник школы: Добавить оценку (4 четверть)</title>
+</head>
+<body>
+    <h1>Дневник школы: Добавить оценку (4 четверть)</h1>    
+    <a href="/page_quarter_4">Назад</a>
+
+    <div>
+        <label for="listStudents">Ученик:</label>
+        <select id="listStudents" required>            
+            <!-- Список учеников добавит "page_quarter_4_add.js" -->
+        </select>
+
+        <label for="listSubjects">Предмет:</label>
+        <select id="listSubjects" required>            
+            <!-- Список предметов добавит "page_quarter_4_add.js" -->
+        </select>
+
+
+        <label for="grade">Оценка: </label> 
+        <input id="grade" value="" type="text"/>
+
+    </div>
+    <button id="but_add">Добавить</button>
+
+    <script src="page_quarter_4_add.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+.menu_item {    
+    padding: 5px;
+}
+
+a {
+    padding: 10px;
+    background: rgba(210, 254, 230, 100);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.but_update {
+    background: rgba(10, 254, 30, 255);
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+.but_delete {
+    background: rgba(250, 154, 130, 100);
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 5px;
+    cursor: pointer;    
+}

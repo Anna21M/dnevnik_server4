@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник школы: Изменить пользователя</title>
+</head>
+<body>
+    <h1>Дневник школы: Добавить пользователя</h1>    
+    <a href="/page_users">Назад</a>
+
+    <div>
+    <label for="login">Логин: </label> 
+    <input id="login" value="" type="text"/>
+    <label for="pass">Пароль: </label> 
+    <input id="pass" value="" type="text"/>
+    <label for="fio">ФИО: </label> 
+    <input id="fio" value="" type="text"/>
+    
+    <label for="type">Тип пользователя:</label>
+    <select id="type" required>
+        <option value="2" selected>Учитель</option>                    
+        <option value="1">Директор</option>
+    </select>
+    <button id="but_update">Изменить</button>
+
+    </div>
+    <script src="page_users_update.js"></script>
+    
+</body>
+</html>
